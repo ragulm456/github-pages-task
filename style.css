@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #172033;
+    line-height: 1.7;
+}
+
+header {
+    background: linear-gradient(135deg, #101c3b, #2457a7);
+    color: white;
+    padding: 24px 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+nav h2 {
+    margin-right: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    max-width: 760px;
+    padding: 90px 0;
+}
+
+.tag {
+    color: #b9d4ff;
+}
+
+.hero h1 {
+    font-size: clamp(2.3rem, 6vw, 4rem);
+    margin: 12px 0;
+    line-height: 1.2;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    background: #ffffff;
+    color: #173c7a;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width: 84%;
+    max-width: 1000px;
+    margin: 35px auto;
+}
+
+.card {
+    background: white;
+    padding: 28px;
+    margin-bottom: 24px;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px #17203310;
+}
+
+.card h2 {
+    color: #2457a7;
+    margin-bottom: 12px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span {
+    background: #e8efff;
+    color: #173c7a;
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    background: #101c3b;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px 6%;
+    }
+
+    nav {
+        gap: 12px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    .card {
+        padding: 20px;
+    }
+}
